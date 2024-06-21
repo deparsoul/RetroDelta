@@ -42,7 +42,6 @@ void main()
 	scale = scale / min(scale.x, scale.y);
 
 	vec2 middle = vec2(0.5, 0.5);
-
 	border_coord =	TexCoord.xy;
 	// border_coord = (border_coord - middle) * scale + middle; // keep aspect ratio
 	screen_coord =	(border_coord * border_size - screen_offset) / screen_size;
