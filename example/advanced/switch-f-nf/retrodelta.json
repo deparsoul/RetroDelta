@@ -1,0 +1,12 @@
+{
+  "deltaPath": "R3BEL NEUMORPHIUS - [P+L] [BUMBLE] [F] [GBA] [v1.0]",
+  "outputPath": "delta",
+  "rotateButton": { "x": 0.95, "y": 0.05, "w": 0.02, "h": 0.02 },
+  "switchSkin": [
+    "R3BEL NEUMORPHIUS - [P+L] [BUMBLE] [NF] [GBA] [v1.0]"
+  ],
+  "switchButton": {
+    "portrait": { "x": 0.1, "y": 0.09, "w": 0.1, "h": 0.02 },
+    "landscape": { "x": 0.27, "y": 0.02, "w": 0.05, "h": 0.02 }
+  }
+}

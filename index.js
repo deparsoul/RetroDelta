@@ -29,6 +29,8 @@ for (const key in config) {
 }
 logger.debug(config);
 
+util.ensureDirectoryExists(config.outputPath);
+
 const retro = new RetroDelta(config);
 
 if (config.switchSkin) {
