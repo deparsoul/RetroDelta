@@ -27,6 +27,7 @@ for (const key in config) {
     config[key] = path.resolve(basePath, config[key]);
   }
 }
+config.outputPath = util.removeZipExtension(config.outputPath);
 logger.debug(config);
 
 util.ensureDirectoryExists(config.outputPath);
