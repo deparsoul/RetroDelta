@@ -9,13 +9,13 @@ layout(push_constant) uniform Push
 
 // portrait mode
 vec2 p_border_size = vec2(1290, 2796);
-vec2 p_screen_size = vec2(1289.5387915623883, 869.6889524490526);
-vec2 p_screen_offset = vec2(0.23060421880586546, 258.90740078655705);
+vec2 p_screen_size = vec2(1290, 1128.75);
+vec2 p_screen_offset = vec2(0, 103.96875);
 
 // landscape mode
-vec2 l_border_size = vec2(0, 0);
-vec2 l_screen_size = vec2(0, 0);
-vec2 l_screen_offset = vec2(0, 0);
+vec2 l_border_size = vec2(2796, 1290);
+vec2 l_screen_size = vec2(1474.2857142857142, 1290);
+vec2 l_screen_offset = vec2(660.8571428571429, 0);
 
 layout(std140, set = 0, binding = 0) uniform UBO
 {
