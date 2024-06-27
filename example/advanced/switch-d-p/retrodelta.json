@@ -1,0 +1,8 @@
+{
+  "deltaPath": "R3BEL GBA SoloThumb [BLUE] [P] [J] [LH] [F] [v1.2]",
+  "outputPath": "delta",
+  "switchSkin": [
+    "R3BEL SOLOTHUMBS [BLUE] [P] [D] [LH] [F] [v1.2]"
+  ],
+  "switchButton": { "x": 0.75, "y": 0.6, "w": 0.04, "h": 0.01845 }
+}

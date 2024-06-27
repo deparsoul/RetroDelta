@@ -1,0 +1,16 @@
+{
+  "name": "retrodelta",
+  "version": "0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.14",
+    "json5": "^2.2.3"
+  }
+}

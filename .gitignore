@@ -1,3 +1,5 @@
+*.deltaskin
+
 # Logs
 logs
 *.log

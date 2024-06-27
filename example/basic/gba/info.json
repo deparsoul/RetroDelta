@@ -1,0 +1,606 @@
+{
+  "name": "-- R3BEL NEUMORPHIUS [P+L] [BUMBLE] [D] [F] [v1.0]",
+  "identifier": "com.R3BEL.GBA.R3BELNEUMORPHIUS-BUMBLE-PnL-D-F-v1.0",
+  "gameTypeIdentifier": "com.rileytestut.delta.game.gba",
+  "debug": false,
+  "representations": {
+    "iphone": {
+      "edgeToEdge": {
+        "portrait": {
+          "assets": {
+            "small" : "R3BEL NEUMORPHIUS - [P] [BUMBLE] [F] [GBA] [v1.0].png",
+            "medium" : "R3BEL NEUMORPHIUS - [P] [BUMBLE] [F] [GBA] [v1.0].png",
+            "large" : "R3BEL NEUMORPHIUS - [P] [BUMBLE] [F] [GBA] [v1.0].png"
+          },
+          "items": [
+            {
+              "inputs": {
+                "up": "up",
+                "down": "down",
+                "left": "left",
+                "right": "right"
+              },
+              "frame": {
+                "x": 95,
+                "y": 1769,
+                "width": 453,
+                "height": 453
+              },
+              "extendedEdges" : {
+                "top": 32,
+                "right" : 32,
+                "bottom" : 32,
+                "left" : 32
+              }
+            },
+            {
+              "inputs": [
+                "a"
+              ],
+              "frame": {
+                "x": 993,
+                "y": 1815,
+                "width": 220,
+                "height": 220
+              },
+              "extendedEdges" : {
+                "top": 12,
+                "right" : 12,
+                "bottom" : 17,
+                "left" : 12
+              }
+            },
+            {
+              "inputs": [
+                "b"
+              ],
+              "frame": {
+                "x": 723,
+                "y": 1950,
+                "width": 220,
+                "height": 220
+              },
+              "extendedEdges" : {
+                "top": 12,
+                "right" : 12,
+                "bottom" : 17,
+                "left" : 12
+              }
+            },
+            {
+              "inputs": [
+                "l"
+              ],
+              "frame": {
+                "x": 601,
+                "y": 1691,
+                "width": 220,
+                "height": 220
+              },
+              "extendedEdges" : {
+                "top": 10,
+                "right" : 10,
+                "bottom" : 10,
+                "left" : 10
+              }
+            },
+            {
+              "inputs": [
+                "r"
+              ],
+              "frame": {
+                "x": 861,
+                "y": 1561,
+                "width": 220,
+                "height": 220
+              },
+              "extendedEdges" : {
+                "top": 10,
+                "right" : 10,
+                "bottom" : 10,
+                "left" : 10
+              }
+            },
+            {
+              "inputs": [
+                "a",
+                "b"
+              ],
+              "frame": {
+                "x": 982,
+                "y": 2100,
+                "width": 140,
+                "height": 140
+              },
+              "extendedEdges" : {
+                "top": 7,
+                "right" : 17,
+                "bottom" : 17,
+                "left" : 7
+              }
+            },
+            {
+              "inputs": [
+                "l",
+                "r"
+              ],
+              "frame": {
+                "x": 702,
+                "y": 1530,
+                "width": 119,
+                "height": 119
+              },
+              "extendedEdges" : {
+                "top": 7,
+                "right" : 7,
+                "bottom" : 7,
+                "left" : 7
+              }
+            },
+            {
+              "inputs": [
+                "l",
+                "b"
+              ],
+              "frame": {
+                "x": 598,
+                "y": 1948,
+                "width": 95,
+                "height": 95
+              },
+              "extendedEdges" : {
+                "top": 5,
+                "right" : 5,
+                "bottom" : 25,
+                "left" : 5
+              }
+            },
+            {
+              "inputs": [
+                "r",
+                "a"
+              ],
+              "frame": {
+                "x": 1121,
+                "y": 1639,
+                "width": 140,
+                "height": 140
+              },
+              "extendedEdges" : {
+                "top": 15,
+                "right" : 20,
+                "bottom" : 5,
+                "left" : 5
+              }
+            },
+            {
+              "inputs": [
+                "start"
+              ],
+              "frame": {
+                "x": 687,
+                "y": 2436,
+                "width": 120,
+                "height": 120
+              }
+            },
+            {
+              "inputs": [
+                "select"
+              ],
+              "frame": {
+                "x": 489,
+                "y": 2436,
+                "width": 120,
+                "height": 120
+              }
+            },
+            {
+              "inputs": [
+                "menu"
+              ],
+              "frame": {
+                "x": 218,
+                "y": 1408,
+                "width": 109,
+                "height": 109
+              }
+            },
+            {
+              "inputs": [
+                "toggleFastForward"
+              ],
+              "frame": {
+                "x": 381,
+                "y": 1408,
+                "width": 109,
+                "height": 109
+              }
+            },
+            {
+              "inputs": [
+                "fastForward"
+              ],
+              "frame": {
+                "x": 0,
+                "y": 325,
+                "width": 1290,
+                "height": 861
+              },
+              "extendedEdges": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              }
+            },
+            {
+              "inputs": [
+                "quickLoad"
+              ],
+              "frame": {
+                "x": 54,
+                "y": 1408,
+                "width": 109,
+                "height": 109
+              }
+            },
+            {
+              "inputs": [
+                "quickSave"
+              ],
+              "frame": {
+                "x": 545,
+                "y": 1408,
+                "width": 109,
+                "height": 109
+              }
+            }
+          ],
+          "mappingSize": {
+            "width": 1290,
+            "height": 2796
+          },
+          "extendedEdges": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "screens": [
+            {
+              "inputFrame": {
+                "x": 0,
+                "y": 0,
+                "width": 240,
+                "height": 160
+              },
+              "outputFrame": {
+                "x": 0,
+                "y": 325,
+                "width": 1290,
+                "height": 861
+              }
+            }
+          ],
+          "translucent": false
+        },
+        "landscape" : {
+          "assets" : {
+            "small" : "R3BEL NEUMORPHIUS - [L] [BUMBLE] [F] [GBA] [v1.0].png",
+            "medium" : "R3BEL NEUMORPHIUS - [L] [BUMBLE] [F] [GBA] [v1.0].png",
+            "large" : "R3BEL NEUMORPHIUS - [L] [BUMBLE] [F] [GBA] [v1.0].png"
+          },
+          "items" : [
+            {
+              "inputs" : {
+                "up" : "up",
+                "down" : "down",
+                "left" : "left",
+                "right" : "right"
+              },
+              "frame" : {
+                "x" : 151,
+                "y" : 359,
+                "width" : 428,
+                "height" : 428
+              },
+              "extendedEdges" : {
+                "top": 35,
+                "right" : 35,
+                "bottom" : 35,
+                "left" : 35
+              }
+            },
+            {
+              "inputs" : [
+                "a"
+              ],
+              "frame" : {
+                "x" : 2513,
+                "y" : 449,
+                "width" : 186,
+                "height" : 186
+              },
+              "extendedEdges" : {
+                "top": 15,
+                "right" : 15,
+                "bottom" : 15,
+                "left" : 15
+              }
+            },
+            {
+              "inputs" : [
+                "b"
+              ],
+              "frame" : {
+                "x" : 2282,
+                "y" : 565,
+                "width" : 186,
+                "height" : 186
+              },
+              "extendedEdges" : {
+                "top": 15,
+                "right" : 15,
+                "bottom" : 15,
+                "left" : 15
+              }
+            },
+            {
+              "inputs": [
+                "r"
+              ],
+              "frame": {
+                "x": 2459,
+                "y": 212,
+                "width": 186,
+                "height": 186
+              },
+              "extendedEdges": {
+                "top": 12,
+                "bottom": 12,
+                "left": 12,
+                "right": 12
+              }
+            },
+            {
+              "inputs": [
+                "l"
+              ],
+              "frame": {
+                "x": 2237,
+                "y": 323,
+                "width": 186,
+                "height": 186
+              },
+              "extendedEdges": {
+                "top": 12,
+                "bottom": 12,
+                "left": 12,
+                "right": 12
+              }
+            },
+            {
+              "inputs": [
+                "a",
+                "b"
+              ],
+              "frame": {
+                "x": 2510,
+                "y": 701,
+                "width": 119,
+                "height": 119
+              },
+              "extendedEdges" : {
+                "top": 7,
+                "right" : 7,
+                "bottom" : 7,
+                "left" : 7
+              }
+            },
+            {
+              "inputs": [
+                "l",
+                "r"
+              ],
+              "frame": {
+                "x": 2304,
+                "y": 157,
+                "width": 119,
+                "height": 119
+              },
+              "extendedEdges" : {
+                "top": 7,
+                "right" : 7,
+                "bottom" : 7,
+                "left" : 7
+              }
+            },
+            {
+              "inputs": [
+                "l",
+                "b"
+              ],
+              "frame": {
+                "x": 2121,
+                "y": 550,
+                "width": 119,
+                "height": 119
+              },
+              "extendedEdges" : {
+                "top": 7,
+                "right" : 7,
+                "bottom" : 7,
+                "left" : 7
+              }
+            },
+            {
+              "inputs": [
+                "r",
+                "a"
+              ],
+              "frame": {
+                "x": 2682,
+                "y": 295,
+                "width": 119,
+                "height": 119
+              },
+              "extendedEdges" : {
+                "top": 5,
+                "right" : 5,
+                "bottom" : 5,
+                "left" : 5
+              }
+            },
+            {
+              "inputs" : [
+                "start"
+              ],
+              "frame" : {
+                "x" : 2276,
+                "y" : 922,
+                "width" : 102,
+                "height" : 102
+              },
+              "extendedEdges" : {
+                "top": 20,
+                "right" : 10,
+                "bottom" : 5,
+                "left" : 10
+              }
+            },
+            {
+              "inputs" : [
+                "select"
+              ],
+              "frame" : {
+                "x" : 428,
+                "y" : 922,
+                "width" : 102,
+                "height" : 102
+              },
+              "extendedEdges" : {
+                "top": 20,
+                "right" : 10,
+                "bottom" : 5,
+                "left" : 10
+              }
+            },
+            {
+              "inputs": [
+                "quickSave"
+              ],
+              "frame": {
+                "x": 2455,
+                "y": 1101,
+                "width": 97,
+                "height": 97
+              },
+              "extendedEdges": {
+                "top": 0,
+                "bottom": 45,
+                "left": 5,
+                "right": 15
+              }
+            },
+            {
+              "inputs": [
+                "quickLoad"
+              ],
+              "frame": {
+                "x": 254,
+                "y": 1101,
+                "width": 97,
+                "height": 97
+              },
+              "extendedEdges": {
+                "top": 0,
+                "bottom": 45,
+                "left": 15,
+                "right": 5
+              }
+            },
+            {
+              "inputs": [
+                "toggleFastForward"
+              ],
+              "frame": {
+                "x": 2279,
+                "y": 1101,
+                "width": 97,
+                "height": 97
+              },
+              "extendedEdges": {
+                "top": 0,
+                "bottom": 45,
+                "left": 15,
+                "right": 5
+              }
+            },
+            {
+              "inputs": [
+                "fastForward"
+              ],
+              "frame": {
+                "x": 725,
+                "y": 60,
+                "width": 1375,
+                "height": 1052
+              },
+              "extendedEdges": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              }
+            },
+            {
+              "inputs" : [
+                "menu"
+              ],
+              "frame" : {
+                "x" : 430,
+                "y" : 1101,
+                "width" : 97,
+                "height" : 97
+              },
+              "extendedEdges": {
+                "top": 0,
+                "bottom": 45,
+                "left": 5,
+                "right": 15
+              }
+            }
+          ],
+          "screens": [
+            {
+              "inputFrame": {
+                "x": 0,
+                "y": 0,
+                "width": 240,
+                "height": 160
+              },
+              "outputFrame": {
+                "x": 615,
+                "y": 60,
+                "width": 1576,
+                "height": 1052
+              }
+            }
+          ],
+          "mappingSize" : {
+            "width" : 2796,
+            "height" : 1290
+          },
+          "extendedEdges" : {
+            "top" : 15,
+            "bottom" : 15,
+            "left" : 15,
+            "right" : 15
+          },
+          "translucent" : false
+        }
+      }
+    }
+  }
+}
