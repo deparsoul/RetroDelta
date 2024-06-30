@@ -22,7 +22,7 @@ If you want to convert skins, you will typically need to install and configure t
 
 Since RetroArch currently does not have one-click skin system like Delta, configuring the skin may be slightly complicated. However, don't worry, once you are familiar with the following steps, using the skin will be almost as convenient as Delta. Especially when you have saved the core settings, changing to another skin only requires loading the new overlay and shader.
 
-1. Transfer the generated directory to a location accessible by your emulator. This directory should include files like `delta.cfg` and `delta.slangp`.
+1. Transfer the generated directory to a location accessible by RetroArch. This directory should include files like `delta.cfg` and `delta.slangp`.
 2. Open RetroArch.
 3. Basic configuration:
    1. Set video scaling to full: `Settings -> Video -> Scaling -> Aspect Ratio -> Full`
@@ -75,10 +75,14 @@ A: Make sure you have followed the steps correctly as outlined above. For exampl
 
 A: Yes. As long as the shader does not alter the screen position and size.
 
+**Q: What screen sizes are supported? Does it support iPads, Android devices, etc.?**
+
+A: Currently, it mainly supports iPhone. The target resolution is default to 1290x2796 (iPhone Pro Max). If your device has a different size, you can specify it through the `targetScreenSize` in `retrodelta.json`. It will automatically calculate the appropriate size and position to fit the skin to the screen. More detailed documentation and parameters will be added in the future.
+
+
 **Q: I encountered problems while setting up skins for N64. Is there anything specific I should be aware of?**
 
 A: You may need to set the RDP Plugin to Angrylion; otherwise, shaders may not work with N64 games. Additionally, since the N64 controller has more buttons, this project maps C Buttons to the right joystick. RetroArch will, by default, map the right joystick to the C Buttons. If you encounter issues, please check your control settings.
-
 
 
 ## Acknowledgements
